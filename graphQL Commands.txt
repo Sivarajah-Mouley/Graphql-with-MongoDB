@@ -1,0 +1,74 @@
+// http://localhost:5000/graphql?
+
+
+
+{
+  books{
+    name
+    id
+    author {
+      id
+      name
+    }
+  }
+}
+
+
+
+
+{
+  authors{
+    name
+    id
+    books {
+      id
+      name
+    }
+  }
+}
+
+
+{
+  author (id:2){
+    name
+    id
+  }
+}
+
+{
+  book (id:2){
+    name
+    id
+    authorId
+  }
+}
+
+
+
+mutation{
+   addAuthor(name:"J.D.Martin"){
+    id
+   
+  }
+}
+
+mutation{
+  addBook(name: "Load of The Rings",authorId:4) {
+    id
+    name
+  }
+ 
+}
+
+
+
+
+{
+  authors {
+    id
+    name
+    books {
+      name
+    }
+  }
+}
