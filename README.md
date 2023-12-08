@@ -16,7 +16,6 @@ This project showcases a GraphQL API built with Node.js, utilizing MongoDB for d
 - [Queries and Mutations](#queries-and-mutations)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
@@ -231,7 +230,4 @@ mutation{
 
 Contributions are welcome! Fork the repository, make changes, and create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
